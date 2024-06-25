@@ -1,5 +1,5 @@
 # CVV
-[Анастасия Кохановская](https://web.telegram.org/08e5ce05-0980-45c6-b372-8c365ff68e5d)
+[Анастасия Кохановская](/rsschool-cv/images/Visual%20Studio%20Code.jpeg)
 
 
 ## Контакты <br>
@@ -31,7 +31,7 @@ const func = (num) => {
 ## Образование
 1. Неоконченное высшее "Информационные системы и технологии"
 2. Курс Stepik 
-[Сертификат stepik](https://stepik.org/certificate/a619e4877277a18bc97c7797948275135c280b72.png?resolution=high)
+[Сертификат stepik](/rsschool-cv/images/a619e4877277a18bc97c7797948275135c280b72.png)
 
 
 ## Английский язык: Pre-Intermediate 
