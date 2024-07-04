@@ -60,6 +60,9 @@ main{
     color: #c4dfe6;
     border-radius: 10px;
 }
+h1{
+    text-align: center;
+}
 h2{
     text-align: center;
 }
@@ -68,6 +71,8 @@ h2{
 }
 .img-certificate{
     width: 50%;
+    padding-right: 10%;
+    float: left;
 }
 .footer{
     height: 80px;
@@ -83,4 +88,8 @@ h2{
 
  .link-img {
     width: 8em;
-} 
+}
+.code{
+    padding-top: 5%;
+    font-size: 0.8vw;
+}
