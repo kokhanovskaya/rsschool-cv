@@ -9,18 +9,22 @@
 <body>
     <header>
         <div class="info">
-          <nav>Profile</nav>
-          <nav>Contacts</nav>
-          <nav>Education</nav>
-          <nav>Experience</nav>
-          <nav>Skills</nav>
+            <nav>
+                 <ul class="menu">
+                    <li class="menu-item"><a href="#profile" class="link">Profile</a></li>
+                    <li class="menu-item"><a href="#contacts" class="link">Contacts</a></li>
+                    <li class="menu-item"><a href="#education" class="link">Education</a></li>
+                    <li class="menu-item"><a href="#experience" class="link">Experience</a></li>
+                    <li class="menu-item"><a href="#skills" class="link">Skills</a></li>
+                </ul>
+             </nav>
         </div>
     </header>
     <main>
     <div class="blok">
-        <div class="profile">
+        <div class="profile" id="profile">
             <h1>Profile</h1>
-            <img src="file:///Users/egorarbuzov/Desktop/Nasjusik/rs-school/rsschool-cv/images/Visual%20Studio%20Code.jpeg" alt="Anastasiia Kokhanovskaia">
+            <img src="avatar.jpeg" alt="Anastasiia Kokhanovskaia" class="img-avatar">
             <p>
                <b>Anastasia Kokhanovskaya</b>
                 <br> 25, residing in Armenia,  i want to transform her life through programming.
@@ -28,8 +32,8 @@
                 <br>I cherishes my dog and is embarking on a new path blending my love for travel with my pursuit of coding skills, aiming for a fulfilling career in tech.
             </p>
         </div>
-        <div class="contacts">
-            <h1>Contacts</h1>
+        <div class="contacts" id="contacts">
+            <h2>Contacts</h2>
                 <p>
                     <b>Github:</b><br>https://github.com/kokhanovskaya
                     <br><b>Email:</b>kokhanovskaya_a@mail.ru
@@ -39,25 +43,55 @@
         </div>
     </div>
     <div class="blok2">
-        <div class="Education">
-            <h1>Education</h1>
-            <img src="file:///Users/egorarbuzov/Desktop/Nasjusik/rs-school/rsschool-cv/images/a619e4877277a18bc97c7797948275135c280b72.png" alt="Sertificate of Stepik" >
+        <div class="education" id="education">
+            <h2>Education</h2>
+            <img src="certificate.png" alt="Sertificate of Stepik" class="img-certificate" >
             <p>Incomplete higher education in UrFU. specialty - information systems and technologies.
                 <br>Taking web development courses for beginners HTML and CSS on Stepik.</p>
         </div>
-        <div class="Experience">
-            <h1>Experience of job</h1>
+         <h2>
+                Example of code
+            </h2>
+        <div class="code">
+            <pre><code>
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Пример HTML&lt;/title&gt;
+                    &lt;style&gt;
+
+                        .container {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            background: #fff;
+                            padding: 20px;
+                            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                        }
+                        h1 {
+                            color: #333;
+                        }
+                        p {
+                            line-height: 1.6;
+                        }
+                    &lt;/style&gt;
+                &lt;/head&gt;
+                </code></pre>
+        </div>
+        <div class="experience" id="experience">
+            <h2>Experience of job</h2>
             <ul>
                 <li>Managment of resale</li>
                 <li>Expert for remote development department</li>
             </ul>
         </div>
-        <div class="skills">
-            <h1>Skills</h1>
-            <ul>Hard skills
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <p>Hard skills</p>
+            <ul>
                 <li>Basic HTML and CSS layout skills</li>
             </ul>
-            <ul>Soft skills
+            <p>Soft skills</p>
+            <ul>
                 <li>Communication: The ability to clearly explain technical concepts to both colleagues and non-specialists.</li>
                 <li>Teamwork: Willingness to work in a team, the ability to listen to others and contribute to the overall success of the project.</li>
                 <li>Problem thinking: The skill of analyzing problems and finding effective solutions, including the ability to identify and correct mistakes.</li>
@@ -68,5 +102,16 @@
         </div>
     </div>
     </main>
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/kokhanovskaya" target="_blank" class="link">Link for GitHub</a>
+            <p>
+                Create at 2024
+            </p>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" class="link-with-img">
+                <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg" class="link-img" alt="course">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
